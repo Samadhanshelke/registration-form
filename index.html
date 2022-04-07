@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM IN HTML</title>
+</head>
+<!-- for input field the name value is compolsary-->
+<style>
+    body {
+      background-image: url("https://i.pinimg.com/236x/87/25/1d/87251dfc2d407168aa052e43296ba7a0--background-patterns-free-download.jpg");
+      
+    }
+    </style>
+<body>
+
+    <form>
+        <h2>Registration Form</h2>
+    <fieldset>
+    <legend><B> User Personal Information</B></legend>
+    <label for="firstname">enter your name:</label> <br>
+     <input type="text" id="firstname" name="username" autofocus>
+     <br>
+     <br>
+     <label for="lastname">enter your lastname:</label> <br>
+     <input type="text" id="lastname" name="sirname"><br>
+     <br>
+     <label for="address">enter your address:</label> <br>
+     <textarea rows="4" column="4" id="address"></textarea>
+     <br>
+     <br>
+     <label for="password">enter your password: </label><br>
+     <input type="password" id="password" name="password">
+     <br>
+     <br>
+     <label for="confirm password">enter your password again: </label>
+     <br>
+     <input type="password" id="confirm password" name="password">
+     <br>
+     <br>
+      <label> select your country:</label><br>
+       <select>
+          <option>india </option>
+          <option>us </option>
+          <option>uk </option>
+          <option>spain </option>
+        </select>
+     <br>
+     <br>
+     <label for="Email"> enter your Email:</label><br>
+     <input type="email" id="Email" name="email">
+     <br>
+     <br>
+     <label for="gender">select your gender:</label>
+     <br>
+      
+     <input type="radio" id="gender" name="gender" value="male">Male
+     <input type="radio" id="gender" name="gender" value="female">Female
+     <input type="radio" id="gender" name="gender" value="other">Other
+     <br>
+     <br>
+      Enter Date of Birth:<br>
+      <input type="date" value="date-of-birth">
+      <br>
+      <br>
+      select time:<br>
+      <input type="time" value="selected time">
+      <br>
+      <br>
+       Enter your age:<br>
+       <input type="number" value="age" max="80" min="25">
+     
+       <br>
+       <br>
+       Enter your mobile number:<br>
+       <input type="tel" name="number" max="10" min="10" required>
+    
+       <br>
+       <br>
+       Hobies:<br>
+      <input type="checkbox" id="cricket" name="cricket" value="cricket"/>Playing cricket<br>
+      <label for="cricket"></label>
+      
+      <input type="checkbox" id="reading" name="reading" value="reading">Reading books<br>
+      <label for="reading"></label>
+      
+      <input type="checkbox" id="movies" name="movies" value="movies">Watching movies<br>
+      <label for="movies"></label>
+      <br>
+      
+       Upload your adhar card for confirmation<br>
+      <input type="file" value="upload file">
+      <br>
+      <br>
+      <i> <b> Enter your bank details:</b></i>
+      <br>
+      <br>
+      Enter Account Holder Name: <br>
+      <label for="holder name"></label>
+      <input type="text" name="account name" id="holder name" placeholder="enter your name " size="30" required>
+      <br>
+      <br>
+      Enter Account Number:<br> 
+      <label for="account number"></label>
+      <input type="text" name="account number" id="account number" placeholder="enter your account number" required>
+      <br>
+      <br>
+      Enter IFSC Code:<br>
+      <label for="IFSC number"></label>
+      <input type="text" name="IFSC number" id="IFSC number" placeholder="enter your IFSC" required>
+      <br>
+      <br>
+      <input type="submit" value="submit" onclick="registration succesful!">
+      <input type="reset" value="reset"><br>
+      <br>
+    </fieldset>
+    </form>
+
+</body>
+</html>
+  
